@@ -1,6 +1,5 @@
 import unittest   
 
-# Step 1
 class Lobbyist:
     def __init__(self, lobbyist_id, lobbyist_lastname, lobbyist_firstname, lobbyist_address1, lobbyist_address2, lobbyist_city, lobbyist_state, lobbyist_zip, income, lobbyistactivities):
         self.lobbyist_id = lobbyist_id
@@ -28,7 +27,6 @@ class LobbyistActiviy:
         self.income_amount = income_amount
         self.date_income_received = date_income_received    
 
-# Step 2  
 class TestLobbyist(unittest.TestCase):
     def setUp(self):
         self.lobbyist = Lobbyist("McKee", "Nancy", "225 Manchester Drive", " ", "Zionsville", "IN", "46077", "20185033599", "2000", " ")

@@ -1,19 +1,7 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[115]:
-
-
-# Thi Phan
-
 import json
 import requests
 import sqlite3
 import datetime
-
-
-# In[116]:
-
 
 # connect to the output database
 conn = sqlite3.connect('spring.sqlite')
@@ -43,10 +31,6 @@ cur.executescript('''CREATE TABLE IF NOT EXISTS Lobbyist (
 print("\nFirst Lobbyist List")
 print(load_js[0])
 
-
-# In[117]:
-
-
 count = 0
 # loop through entire data set
 for data in load_js:
@@ -69,11 +53,6 @@ for data in load_js:
     if count%100==0:
         print("\nThere has been", count, "number of readings")
         conn.commit()
-   
-
-
-# In[118]:
-
 
 # commit to make sure all data is saved
 conn.commit()

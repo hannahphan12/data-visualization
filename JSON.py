@@ -20,16 +20,12 @@ paramD["id'"] = 7
 paramD["$order"] = "timestamps DESC"
 paramD["$limit"] = 5000
 
-# create a database to hold JSON data
 db = mongoClient["50"]
 
-# create a collection to hold downloaded JSON readings
 collection = db["assignment"]
 
-# open the URL using the request library
 document = requests.get(url,paramD)
 
-# extract the entire data from JSON file
 data = json.loads(document.content)
 my_data = data
 

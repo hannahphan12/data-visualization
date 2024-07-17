@@ -37,7 +37,7 @@ for data in load_js:
     count = count + 1
     
     activityid = count
-    lobbyistid   = data.get("primarylobbyistid")
+    lobbyistid = data.get("primarylobbyistid")
     name    = data.get("lobbyistlastname")
     address = data.get("lobbyistaddress1")
     city    = data.get("lobbyistcity")

@@ -2,6 +2,8 @@ import json
 import requests
 import sqlite3
 import datetime
+import matplotlib.pyplot as plt
+import pandas as pd
 
 # connect to the output database
 conn = sqlite3.connect('spring.sqlite')
@@ -58,3 +60,30 @@ for data in load_js:
 conn.commit()
 conn.close()
 
+# create bar chart using loop
+from collections import Counter
+
+report_months = [entry.get('reportmonth') for entry in load_js]
+month_counts = Counter(report_months)
+
+months = list(month_counts.keys())
+counts = list(month_counts.values())
+
+plt.bar(months, counts, color='blue')
+
+plt.title('Number of Lobbyists by Report Month')
+plt.xlabel('Report Month')
+plt.ylabel('Number of Lobbyists')
+
+# create column chart using pivot table and Dataframe
+df = pd.DataFrame(load_js)
+
+pivot_table = df.pivot_table(index='reportmonth', aggfunc='size')
+
+pivot_table.plot(kind='bar', color='blue')
+
+plt.title('Number of Lobbyists by Report Month')
+plt.xlabel('Report Month')
+plt.ylabel('Number of Lobbyists')
+
+plt.show()

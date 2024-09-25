@@ -20,5 +20,5 @@
     source venv/bin/activate  
     ```
 4. **Install the required dependencies**:
-   MongDB, SQLite, Pandas, Matplotlib,...
+  * MongDB, SQLite, Pandas, Matplotlib,...
 

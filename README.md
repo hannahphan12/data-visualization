@@ -22,6 +22,3 @@
 4. **Install the required dependencies**:
    MongDB, SQLite, Pandas, Matplotlib,...
 
-## Authors
-
-[@Hannah Phan](https://www.linkedin.com/in/hannah-phan-/)

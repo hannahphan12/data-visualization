@@ -1,7 +1,7 @@
-# Python Data Visualization
+# Data Visualization
 
 ## Description
-* A Python project that shows data modeling and visualization with the information extracted from the retrieved JSON data.
+* A Python academic project that shows data modeling and visualization with the information extracted from the retrieved JSON data.
 * Utilizing MongoDB and SQLite frameworks to manage and produce a cleaned-up and well-modeled version of the data set.
 * Creating different types of data visualizations using Pandas DataFrame.
 
@@ -21,13 +21,6 @@
     ```
 4. **Install the required dependencies**:
    MongDB, SQLite, Pandas, Matplotlib,...
-
-### Executing program
-
-Run the database to connect to the local server:
-    ```sh
-    python3 manage.py runserver 
-    ```
 
 ## Authors
 

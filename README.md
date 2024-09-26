@@ -9,16 +9,16 @@
 
 ### Installing
 
-1. **Clone the repository**:
-    ```sh
-    git clone https://github.com/hannahphan12/data-visualization.git
-    cd data-visualization
-    ```
-2. **Create and activate a virtual environment** (optional but recommended):
-    ```sh
-    python3 -m venv venv
-    source venv/bin/activate  
-    ```
-4. **Install the required dependencies**:
-  * MongDB, SQLite, Pandas, Matplotlib,...
+1. MongoDB
+  # Download:
+   * Download MongoDB from https://www.mongodb.com/try/download/community
+   * Download Mongo Shell from https://www.mongodb.com/try/download/shell
+  # Building: See [Building MongoDB](docs/building.md)
+  # Learn MongoDB:
+- Documentation - https://docs.mongodb.com/manual/
+- Developer Center - https://www.mongodb.com/developer/
+- MongoDB University - https://learn.mongodb.com
+3. SQLite
+4. Pandas
+5. Matplotlib
 

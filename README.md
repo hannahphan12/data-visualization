@@ -11,13 +11,14 @@
 
 1. MongoDB
    * Download:
-     Download MongoDB from https://www.mongodb.com/try/download/community
-     Download Mongo Shell from https://www.mongodb.com/try/download/shell
-   * Building: See [Building MongoDB](docs/building.md)
+     - Download MongoDB from https://www.mongodb.com/try/download/community
+     - Download Mongo Shell from https://www.mongodb.com/try/download/shell
+   * Building:
+     - See [Building MongoDB](docs/building.md)
    * Learn MongoDB:
-     Documentation - https://docs.mongodb.com/manual/
-     Developer Center - https://www.mongodb.com/developer/
-     MongoDB University - https://learn.mongodb.com
+     - Documentation - https://docs.mongodb.com/manual/
+     - Developer Center - https://www.mongodb.com/developer/
+     - MongoDB University - https://learn.mongodb.com
 3. SQLite
 4. Pandas
 5. Matplotlib

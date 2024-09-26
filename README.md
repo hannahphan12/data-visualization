@@ -11,17 +11,17 @@
 
 1. MongoDB
    * Download:
-     - Download MongoDB from https://www.mongodb.com/try/download/community
-     - Download MongoDB Shell from https://www.mongodb.com/try/download/shell
+     - Download MongoDB from [here](https://www.mongodb.com/try/download/community)
+     - Download MongoDB Shell from [here](https://www.mongodb.com/try/download/shell)
    * Building:
      - See [Building MongoDB](docs/building.md)
    * Learn MongoDB:
-     - Documentation - https://docs.mongodb.com/manual/
-     - Developer Center - https://www.mongodb.com/developer/
-     - MongoDB University - https://learn.mongodb.com
+     - [Documentation](https://docs.mongodb.com/manual)
+     - [Developer Center](https://www.mongodb.com/developer)
+     - [MongoDB University](https://learn.mongodb.com)
 3. SQLite
-   * You can use [`npm`](https://github.com/npm/cli) or [`yarn`](https://github.com/yarnpkg/yarn) to install `sqlite3`:
-   * Latest published package:
+   * You can use [`npm`](https://github.com/npm/cli) or [`yarn`](https://github.com/yarnpkg/yarn) to install `sqlite3`
+     - Latest published package:
 ```bash
 npm install sqlite3
 # or

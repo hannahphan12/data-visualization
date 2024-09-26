@@ -20,8 +20,13 @@
      - [Developer Center](https://www.mongodb.com/developer)
      - [MongoDB University](https://learn.mongodb.com)
 3. SQLite
-   * You can use [`npm`](https://github.com/npm/cli) or [`yarn`](https://github.com/yarnpkg/yarn) to install `sqlite3`
-   * [Resource](https://www.sqlite.org/docs.html)
+   * You can use [`npm`](https://github.com/npm/cli) or [`yarn`](https://github.com/yarnpkg/yarn) to install `sqlite3`:
+  ```bash
+npm install sqlite3
+# or
+yarn add sqlite3
+```
+   * Learn SQLite from [Resource](https://www.sqlite.org/docs.html)
 5. Pandas
    * Download `pandas` from http://pandas.pydata.org/
 6. Matplotlib

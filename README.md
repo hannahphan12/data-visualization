@@ -21,8 +21,7 @@
      - [MongoDB University](https://learn.mongodb.com)
 3. SQLite
    * You can use [`npm`](https://github.com/npm/cli) or [`yarn`](https://github.com/yarnpkg/yarn) to install `sqlite3`
-     - Latest published package:
-```bash
+  ```bash
 npm install sqlite3
 # or
 yarn add sqlite3

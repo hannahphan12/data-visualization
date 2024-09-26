@@ -12,7 +12,7 @@
 1. MongoDB
    * Download:
      - Download MongoDB from https://www.mongodb.com/try/download/community
-     - Download Mongo Shell from https://www.mongodb.com/try/download/shell
+     - Download MongoDB Shell from https://www.mongodb.com/try/download/shell
    * Building:
      - See [Building MongoDB](docs/building.md)
    * Learn MongoDB:
@@ -20,6 +20,14 @@
      - Developer Center - https://www.mongodb.com/developer/
      - MongoDB University - https://learn.mongodb.com
 3. SQLite
-4. Pandas
-5. Matplotlib
+   * You can use [`npm`](https://github.com/npm/cli) or [`yarn`](https://github.com/yarnpkg/yarn) to install `sqlite3`:
+   * Latest published package:
+```bash
+npm install sqlite3
+# or
+yarn add sqlite3
+```
+   * [Resource](https://www.sqlite.org/docs.html)
+5. Pandas
+6. Matplotlib
 

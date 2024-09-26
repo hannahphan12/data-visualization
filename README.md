@@ -11,7 +11,7 @@
 
 1. MongoDB
    * Download:
-     - Download MongoDB from [here](https://www.mongodb.com/try/download/community)
+     - Download MongoDB from [MongoDB Community Server](https://www.mongodb.com/try/download/community)
      - Download MongoDB Shell from [here](https://www.mongodb.com/try/download/shell)
    * Building:
      - See [Building MongoDB](docs/building.md)
@@ -29,6 +29,6 @@ yarn add sqlite3
 ```
    * [Resource](https://www.sqlite.org/docs.html)
 5. Pandas
-   * Download `pandas` from [here](http://pandas.pydata.org/)
+   * Download `pandas` from http://pandas.pydata.org/
 6. Matplotlib
-   * Download `matplotlib` from [here](http://matplotlib.org/)
+   * Download `matplotlib` from http://matplotlib.org/

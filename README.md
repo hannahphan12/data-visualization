@@ -29,5 +29,6 @@ yarn add sqlite3
 ```
    * [Resource](https://www.sqlite.org/docs.html)
 5. Pandas
+   * Download `pandas` from [here](http://pandas.pydata.org/)
 6. Matplotlib
-
+   * Download `matplotlib` from [here](http://matplotlib.org/)
